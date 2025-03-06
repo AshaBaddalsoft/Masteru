@@ -13,7 +13,7 @@ public class AddressPage {
 	public AddressPage(WebDriver rdriver)
 	{
 		PageFactory.initElements(rdriver, this);
-		this.driver = rdrive
+		this.driver = rdriver;
 	}
 	
 	//+ New Address Button
