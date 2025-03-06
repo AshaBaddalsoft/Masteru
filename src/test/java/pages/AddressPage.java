@@ -34,7 +34,7 @@ public class AddressPage {
 		
 	//Country
 	@FindBy(xpath="//input[@aria-label='Country, Lookup']")
-	WebElement country
+	WebElement country;
 	public WebElement enterCountry() {
 		return country;
 	}
